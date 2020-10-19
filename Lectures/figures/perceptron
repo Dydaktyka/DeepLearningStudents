@@ -1,0 +1,23 @@
+digraph perceptron {
+	graph [nodesep=0.55 rankdir=BT ranksep=1 splines=line]
+	node [fixedsize=true shape=circle width=0.3]
+	0 [label="" shape=circle width=0.2]
+	1 [label="" shape=circle width=0.2]
+	2 [label="" shape=circle width=0.2]
+	3 [label="" shape=circle width=0.2]
+	4 [label="" shape=circle width=0.2]
+	5 [label="" shape=circle width=0.2]
+	6 [label="" shape=circle width=0.2]
+	7 [label="" shape=circle width=0.2]
+	out [label=""]
+	empty [label="" shape=circle width=0.1]
+	0 -> out
+	1 -> out
+	2 -> out
+	3 -> out
+	4 -> out
+	5 -> out
+	6 -> out
+	7 -> out
+	out -> empty
+}

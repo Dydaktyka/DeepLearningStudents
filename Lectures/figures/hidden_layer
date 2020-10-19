@@ -1,0 +1,115 @@
+digraph perceptron {
+	graph [nodesep=0.55 rankdir=BT ranksep=1 splines=line]
+	node [fixedsize=true shape=circle width=0.3]
+	in_0 [label="" shape=circle width=0.2]
+	in_1 [label="" shape=circle width=0.2]
+	in_2 [label="" shape=circle width=0.2]
+	in_3 [label="" shape=circle width=0.2]
+	in_4 [label="" shape=circle width=0.2]
+	in_5 [label="" shape=circle width=0.2]
+	in_6 [label="" shape=circle width=0.2]
+	in_7 [label="" shape=circle width=0.2]
+	h_0 [label=""]
+	h_1 [label=""]
+	h_2 [label=""]
+	h_3 [label=""]
+	h_4 [label=""]
+	h_5 [label=""]
+	h_6 [label=""]
+	h_7 [label=""]
+	h_8 [label=""]
+	h_9 [label=""]
+	empty [label="" shape=circle width=0.1]
+	in_0 -> h_0
+	in_0 -> h_1
+	in_0 -> h_2
+	in_0 -> h_3
+	in_0 -> h_4
+	in_0 -> h_5
+	in_0 -> h_6
+	in_0 -> h_7
+	in_0 -> h_8
+	in_0 -> h_9
+	in_1 -> h_0
+	in_1 -> h_1
+	in_1 -> h_2
+	in_1 -> h_3
+	in_1 -> h_4
+	in_1 -> h_5
+	in_1 -> h_6
+	in_1 -> h_7
+	in_1 -> h_8
+	in_1 -> h_9
+	in_2 -> h_0
+	in_2 -> h_1
+	in_2 -> h_2
+	in_2 -> h_3
+	in_2 -> h_4
+	in_2 -> h_5
+	in_2 -> h_6
+	in_2 -> h_7
+	in_2 -> h_8
+	in_2 -> h_9
+	in_3 -> h_0
+	in_3 -> h_1
+	in_3 -> h_2
+	in_3 -> h_3
+	in_3 -> h_4
+	in_3 -> h_5
+	in_3 -> h_6
+	in_3 -> h_7
+	in_3 -> h_8
+	in_3 -> h_9
+	in_4 -> h_0
+	in_4 -> h_1
+	in_4 -> h_2
+	in_4 -> h_3
+	in_4 -> h_4
+	in_4 -> h_5
+	in_4 -> h_6
+	in_4 -> h_7
+	in_4 -> h_8
+	in_4 -> h_9
+	in_5 -> h_0
+	in_5 -> h_1
+	in_5 -> h_2
+	in_5 -> h_3
+	in_5 -> h_4
+	in_5 -> h_5
+	in_5 -> h_6
+	in_5 -> h_7
+	in_5 -> h_8
+	in_5 -> h_9
+	in_6 -> h_0
+	in_6 -> h_1
+	in_6 -> h_2
+	in_6 -> h_3
+	in_6 -> h_4
+	in_6 -> h_5
+	in_6 -> h_6
+	in_6 -> h_7
+	in_6 -> h_8
+	in_6 -> h_9
+	in_7 -> h_0
+	in_7 -> h_1
+	in_7 -> h_2
+	in_7 -> h_3
+	in_7 -> h_4
+	in_7 -> h_5
+	in_7 -> h_6
+	in_7 -> h_7
+	in_7 -> h_8
+	in_7 -> h_9
+	h_0 -> out
+	h_1 -> out
+	h_2 -> out
+	h_3 -> out
+	h_4 -> out
+	h_5 -> out
+	h_6 -> out
+	h_7 -> out
+	h_8 -> out
+	h_9 -> out
+	out [label=""]
+	out -> empty
+}

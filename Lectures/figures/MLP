@@ -1,0 +1,204 @@
+digraph perceptron {
+	graph [nodesep=0.55 rankdir=BT ranksep=1 splines=line]
+	node [fixedsize=true shape=circle width=0.3]
+	in_0 [label="" shape=circle width=0.2]
+	in_1 [label="" shape=circle width=0.2]
+	in_2 [label="" shape=circle width=0.2]
+	in_3 [label="" shape=circle width=0.2]
+	in_4 [label="" shape=circle width=0.2]
+	in_5 [label="" shape=circle width=0.2]
+	in_6 [label="" shape=circle width=0.2]
+	in_7 [label="" shape=circle width=0.2]
+	h_1_0 [label=""]
+	h_1_1 [label=""]
+	h_1_2 [label=""]
+	h_1_3 [label=""]
+	h_1_4 [label=""]
+	h_1_5 [label=""]
+	h_1_6 [label=""]
+	h_1_7 [label=""]
+	h_1_8 [label=""]
+	h_1_9 [label=""]
+	h_2_0 [label=""]
+	h_2_1 [label=""]
+	h_2_2 [label=""]
+	h_2_3 [label=""]
+	h_2_4 [label=""]
+	h_2_5 [label=""]
+	o_0 [label=""]
+	o_1 [label=""]
+	o_2 [label=""]
+	o_3 [label=""]
+	e_0 [label="" shape=circle width=0.1]
+	e_1 [label="" shape=circle width=0.1]
+	e_2 [label="" shape=circle width=0.1]
+	e_3 [label="" shape=circle width=0.1]
+	in_0 -> h_1_0
+	in_0 -> h_1_1
+	in_0 -> h_1_2
+	in_0 -> h_1_3
+	in_0 -> h_1_4
+	in_0 -> h_1_5
+	in_0 -> h_1_6
+	in_0 -> h_1_7
+	in_0 -> h_1_8
+	in_0 -> h_1_9
+	in_1 -> h_1_0
+	in_1 -> h_1_1
+	in_1 -> h_1_2
+	in_1 -> h_1_3
+	in_1 -> h_1_4
+	in_1 -> h_1_5
+	in_1 -> h_1_6
+	in_1 -> h_1_7
+	in_1 -> h_1_8
+	in_1 -> h_1_9
+	in_2 -> h_1_0
+	in_2 -> h_1_1
+	in_2 -> h_1_2
+	in_2 -> h_1_3
+	in_2 -> h_1_4
+	in_2 -> h_1_5
+	in_2 -> h_1_6
+	in_2 -> h_1_7
+	in_2 -> h_1_8
+	in_2 -> h_1_9
+	in_3 -> h_1_0
+	in_3 -> h_1_1
+	in_3 -> h_1_2
+	in_3 -> h_1_3
+	in_3 -> h_1_4
+	in_3 -> h_1_5
+	in_3 -> h_1_6
+	in_3 -> h_1_7
+	in_3 -> h_1_8
+	in_3 -> h_1_9
+	in_4 -> h_1_0
+	in_4 -> h_1_1
+	in_4 -> h_1_2
+	in_4 -> h_1_3
+	in_4 -> h_1_4
+	in_4 -> h_1_5
+	in_4 -> h_1_6
+	in_4 -> h_1_7
+	in_4 -> h_1_8
+	in_4 -> h_1_9
+	in_5 -> h_1_0
+	in_5 -> h_1_1
+	in_5 -> h_1_2
+	in_5 -> h_1_3
+	in_5 -> h_1_4
+	in_5 -> h_1_5
+	in_5 -> h_1_6
+	in_5 -> h_1_7
+	in_5 -> h_1_8
+	in_5 -> h_1_9
+	in_6 -> h_1_0
+	in_6 -> h_1_1
+	in_6 -> h_1_2
+	in_6 -> h_1_3
+	in_6 -> h_1_4
+	in_6 -> h_1_5
+	in_6 -> h_1_6
+	in_6 -> h_1_7
+	in_6 -> h_1_8
+	in_6 -> h_1_9
+	in_7 -> h_1_0
+	in_7 -> h_1_1
+	in_7 -> h_1_2
+	in_7 -> h_1_3
+	in_7 -> h_1_4
+	in_7 -> h_1_5
+	in_7 -> h_1_6
+	in_7 -> h_1_7
+	in_7 -> h_1_8
+	in_7 -> h_1_9
+	h_1_0 -> h_2_0
+	h_1_0 -> h_2_1
+	h_1_0 -> h_2_2
+	h_1_0 -> h_2_3
+	h_1_0 -> h_2_4
+	h_1_0 -> h_2_5
+	h_1_1 -> h_2_0
+	h_1_1 -> h_2_1
+	h_1_1 -> h_2_2
+	h_1_1 -> h_2_3
+	h_1_1 -> h_2_4
+	h_1_1 -> h_2_5
+	h_1_2 -> h_2_0
+	h_1_2 -> h_2_1
+	h_1_2 -> h_2_2
+	h_1_2 -> h_2_3
+	h_1_2 -> h_2_4
+	h_1_2 -> h_2_5
+	h_1_3 -> h_2_0
+	h_1_3 -> h_2_1
+	h_1_3 -> h_2_2
+	h_1_3 -> h_2_3
+	h_1_3 -> h_2_4
+	h_1_3 -> h_2_5
+	h_1_4 -> h_2_0
+	h_1_4 -> h_2_1
+	h_1_4 -> h_2_2
+	h_1_4 -> h_2_3
+	h_1_4 -> h_2_4
+	h_1_4 -> h_2_5
+	h_1_5 -> h_2_0
+	h_1_5 -> h_2_1
+	h_1_5 -> h_2_2
+	h_1_5 -> h_2_3
+	h_1_5 -> h_2_4
+	h_1_5 -> h_2_5
+	h_1_6 -> h_2_0
+	h_1_6 -> h_2_1
+	h_1_6 -> h_2_2
+	h_1_6 -> h_2_3
+	h_1_6 -> h_2_4
+	h_1_6 -> h_2_5
+	h_1_7 -> h_2_0
+	h_1_7 -> h_2_1
+	h_1_7 -> h_2_2
+	h_1_7 -> h_2_3
+	h_1_7 -> h_2_4
+	h_1_7 -> h_2_5
+	h_1_8 -> h_2_0
+	h_1_8 -> h_2_1
+	h_1_8 -> h_2_2
+	h_1_8 -> h_2_3
+	h_1_8 -> h_2_4
+	h_1_8 -> h_2_5
+	h_1_9 -> h_2_0
+	h_1_9 -> h_2_1
+	h_1_9 -> h_2_2
+	h_1_9 -> h_2_3
+	h_1_9 -> h_2_4
+	h_1_9 -> h_2_5
+	h_2_0 -> o_0
+	h_2_0 -> o_1
+	h_2_0 -> o_2
+	h_2_0 -> o_3
+	h_2_1 -> o_0
+	h_2_1 -> o_1
+	h_2_1 -> o_2
+	h_2_1 -> o_3
+	h_2_2 -> o_0
+	h_2_2 -> o_1
+	h_2_2 -> o_2
+	h_2_2 -> o_3
+	h_2_3 -> o_0
+	h_2_3 -> o_1
+	h_2_3 -> o_2
+	h_2_3 -> o_3
+	h_2_4 -> o_0
+	h_2_4 -> o_1
+	h_2_4 -> o_2
+	h_2_4 -> o_3
+	h_2_5 -> o_0
+	h_2_5 -> o_1
+	h_2_5 -> o_2
+	h_2_5 -> o_3
+	o_0 -> e_0
+	o_1 -> e_1
+	o_2 -> e_2
+	o_3 -> e_3
+}
