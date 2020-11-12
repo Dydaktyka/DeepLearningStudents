@@ -6,3 +6,5 @@ Lectures/L02_StochasticGradientDescent/.ipynb_checkpoints/
 Lectures/Introduction/.ipynb_checkpoints/
 
 Lectures/L03/.ipynb_checkpoints/
+
+*.Rmd
