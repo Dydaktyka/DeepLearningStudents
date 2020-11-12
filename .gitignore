@@ -8,3 +8,7 @@ Lectures/Introduction/.ipynb_checkpoints/
 Lectures/L03/.ipynb_checkpoints/
 
 *.Rmd
+
+modules/.ipynb_checkpoints/
+
+modules/__pycache__/
